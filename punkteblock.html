@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <title>Punkteblock</title>
+    <link rel="stylesheet" href="lib/normalize.css"/>
+    <link rel="stylesheet" href="punkteblock.css"/>
+    <script src="lib/jquery.min.js"></script>
+    <script src="punkteblock.js"></script>
+  </head>
+  <body>
+    <div>
+      <table border="1" id="resultate">
+        <thead>
+          <tr>
+            <th></th>
+            <th><input name="spieler1" size="6"/></th>
+            <th><input name="spieler2" size="6"/></th>
+            <th><button id="add-player">+</button></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="runde">1</td>
+            <td class="next"></td>
+            <td></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th></th>
+            <th><span id="stand-spieler1">0</span></th>
+            <th><span id="stand-spieler2">0</span></th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <table border="1" id="keypad" tabindex="0">
+      <tr>
+        <td><button name="7">7</button></td>
+        <td><button name="8">8</button></td>
+        <td><button name="9">9</button></td>
+      </tr>
+      <tr>
+        <td><button name="4">4</button></td>
+        <td><button name="5">5</button></td>
+        <td><button name="6">6</button></td>
+      </tr>
+      <tr>
+        <td><button name="3">3</button></td>
+        <td><button name="2">2</button></td>
+        <td><button name="1">1</button></td>
+      </tr>
+      <tr>
+        <td><button name="0">0</button></td>
+        <td><button name="clear">c</button></td>
+        <td><button name="enter">+</button></td>
+      </tr>
+    </table>
+  </body>
+</html>

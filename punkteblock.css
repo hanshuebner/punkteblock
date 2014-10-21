@@ -1,0 +1,31 @@
+body {
+    padding: 0.5em;
+}
+
+#keypad {
+    font-size: 200%;
+    position: absolute;
+    bottom: 0.5em;
+    left: 0.5em;
+}
+
+#keypad input[name=akku] {
+    text-align: right;
+}
+
+#keypad button {
+    width: 1.1em;
+    text-align: center;
+}
+
+tbody td, tfoot th {
+    text-align: right;
+}
+
+tbody td.runde {
+    width: 3em;
+}
+
+.next {
+    background: #F5DA81;
+}
