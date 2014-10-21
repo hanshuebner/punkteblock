@@ -6,7 +6,7 @@ body {
     font-size: 200%;
     position: absolute;
     bottom: 0.5em;
-    left: 0.5em;
+    right: 0.5em;
 }
 
 #keypad input[name=akku] {
